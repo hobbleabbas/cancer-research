@@ -1,3 +1,5 @@
+package conditionResearch
+
 object MedicalConcept {
   class UMLS {
 
@@ -7,5 +9,8 @@ object MedicalConcept {
 
   class Condition() extends UMLS
 
-  class Drug extends UMLS
+  class Drug() extends UMLS
+
 }
+
+case class Paper(author: String)

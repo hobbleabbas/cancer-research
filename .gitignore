@@ -34,3 +34,37 @@ ui/.vercel
 # typescript
 ui/*.tsbuildinfo
 ui/next-env.d.ts
+
+
+# macOS
+condition-research/.DS_Store
+
+# sbt specific
+condition-research/dist/*
+condition-research/target/
+condition-research/lib_managed/
+condition-research/src_managed/
+condition-research/project/boot/
+condition-research/project/plugins/project/
+condition-research/project/local-plugins.sbt
+condition-research/.history
+condition-research/.ensime
+condition-research/.ensime_cache/
+condition-research/.sbt-scripted/
+condition-research/local.sbt
+
+# Bloop
+condition-research/.bsp
+
+# VS Code
+condition-research/.vscode/
+
+# Metals
+condition-research/.bloop/
+condition-research/.metals/
+condition-research/metals.sbt
+
+# IDEA
+condition-research/.idea
+condition-research/.idea_modules
+condition-research//.worksheet/
